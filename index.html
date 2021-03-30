@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Formulario</h1>
+    </div>
+
+    <div class="container">
+        <form id="formulario" action="/formulario" method="post" >
+            <p>Nombre:
+                <div>
+                    <input type="text" name="nombre" size="40"  placeholder="Ingrese su nombre">
+                </div>
+            </p>
+
+            <p>Correo: 
+                <div>
+                    <input type="email" name="Correo" size="40" placeholder="Ingrese su correo">
+                </div>
+            </p>
+
+            <p>Fecha de Nacimiento:
+                <div>
+                    <input type="date" name="fechaNacimiento" >
+                </div>
+            </p>
+
+            <p>Seleccione su carrera: 
+                <div>
+                    <select name="Carrera" id="carrera">
+                        <option>Ingenieria Civil Informatica</option>
+                        <option>Ingenieria Civil Telematica</option>
+                        <option>Ingenieria Civil Industrial mencion Informatica</option>
+                        <option>Ingenieria Informatica</option>
+                    </select>
+                </div>
+            </p>
+
+            <p>Seleccione su Genero:
+                <div >
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="male">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                        <label for="male">Femenino</label>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                        <label for="male">Otro </label>
+                </div>
+            </p>
+        
+            <button type="submit" value="Enviar" onclick="getData()" >Enviar</button>
+        </form>
+    </div>
+    <div id="footer"> 
+        Hecho por Nicolás Carrillo Sepúlveda - ICT
+    </div>
+</body>
+</html>

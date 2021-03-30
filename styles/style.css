@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    background-color: rgba(139, 236, 233, 0.632);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+}
+#nav {
+    line-height: 30px;
+    background-color: rgba(139, 236, 233, 0.632);
+    height: 300px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+#formulario {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 1 px
+}
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    padding: 5px;
+}
