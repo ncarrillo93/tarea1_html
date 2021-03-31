@@ -8,6 +8,13 @@ body {
     text-align: center;
     padding: 5px;
 }
+#tabla{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 1px;
+}
 #nav {
     line-height: 30px;
     background-color: rgba(139, 236, 233, 0.632);
@@ -21,11 +28,12 @@ body {
     float: left;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 0 20px 1 px
+    box-shadow: 0 0 20px 1px;
 }
 #footer {
     background-color: black;
     color: white;
     clear: both;
     padding: 5px;
+    text-align: center;
 }
